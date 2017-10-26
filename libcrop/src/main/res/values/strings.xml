@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">libcrop</string>
+    <string name="save">保存</string>
+    <string name="select_image">选择照片</string>
+    <string name="cannot_load_image">不能否加载的图片</string>
+    <string name="setting_wallpaper">设置壁纸</string>
+    <string name="crop_title">图片裁剪</string>
+</resources>
