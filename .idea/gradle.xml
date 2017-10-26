@@ -10,7 +10,6 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/libcrop" />
-            <option value="$PROJECT_DIR$/photos" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
