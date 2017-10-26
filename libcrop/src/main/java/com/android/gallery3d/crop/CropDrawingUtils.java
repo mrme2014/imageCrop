@@ -175,7 +175,7 @@ public abstract class CropDrawingUtils {
         //绘制矩形遮罩
         Path rectPath = new Path();
         rectPath.addRect(outerBounds, Path.Direction.CW);
-        if (Build.VERSION.SDK_INT > 19) {
+        if (Build.VERSION.SDK_INT >= 19) {
             rectPath.op(circlePath, Path.Op.DIFFERENCE);
             canvas.drawPath(rectPath, p);
         } else {
