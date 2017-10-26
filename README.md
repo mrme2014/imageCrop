@@ -18,9 +18,11 @@
 ![image](https://github.com/mrme2014/imageCrop/raw/master/art/2.gif)
 
 
+### 使用方式
+
 ```java
-        Intent intent = new Intent(this, CropActivity.class);//
-        intent.setDataAndType(getUri("/sdcard/download/1.png"), "image/*");
+        Intent intent = new Intent(this, CropActivity.class);//替换成“com.android.camera.action.CROP” 模拟器运行可查看原生裁剪是什么样子的
+        intent.setDataAndType(getUri("/sdcard/download/1.png"), "image/*");
         intent.putExtra("crop", "true");
         intent.putExtra("aspectX", 1);
         intent.putExtra("aspectY", 1);
