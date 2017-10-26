@@ -18,6 +18,14 @@
 ![image](https://github.com/mrme2014/imageCrop/raw/master/art/2.gif)
 
 
+### 添加依赖
+```java
+dependencies{
+
+              compile 'com.qiaomu.library:imagecrop:1.0.1'
+}
+```
+
 ### 使用方式
 
 ```java
