@@ -2,6 +2,7 @@
 # android6.0原生系统相册裁剪源码抽取改进
 
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![LICENSE](https://img.shields.io/badge/license-MIT%20(The%20996%20Prohibited%20License)-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 ### 由于安卓手机各个ROM从4.0到7.0 相册功能各有差异,从4.0以后原生都不在支持圆形裁剪，而各个厂家可能，注意可能会把自己ROM中相册增加圆形裁剪功能。
 ### 这样的话，调用原生系统裁剪就会有兼容问题。
